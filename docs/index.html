@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build an Empathy App | Course Foundation</title>
+    <meta name="description" content="A course foundation exploring empathy from a psychological, philosophical, and game theory perspective, applied through interactive software design.">
+    <style>
+        /* CSS reset and fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            /* Sleek Greystone Light Mode Palette */
+            --bg-color: #f4f4f6;
+            --text-color: #202022;
+            --card-bg: #ffffff;
+            --border-color: #d1d1d6;
+            --accent-gray: #6e6e73;
+            --hover-elevate: 0 12px 30px rgba(0,0,0,0.08);
+            --gradient-start: #eaeaea;
+            --gradient-end: #f4f4f6;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                /* Sophisticated Dark Mode Palette */
+                --bg-color: #121214;
+                --text-color: #f5f5f7;
+                --card-bg: #1c1c1e;
+                --border-color: #333336;
+                --accent-gray: #98989d;
+                --hover-elevate: 0 12px 30px rgba(0,0,0,0.5);
+                --gradient-start: #1c1c1e;
+                --gradient-end: #121214;
+            }
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            padding: 120px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            background: linear-gradient(180deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            letter-spacing: -0.04em;
+            margin-bottom: 20px;
+            color: var(--text-color);
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+        }
+        
+        .subtitle {
+            font-size: clamp(1.1rem, 2vw, 1.35rem);
+            color: var(--accent-gray);
+            max-width: 650px;
+            margin: 0 auto;
+            font-weight: 400;
+            animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            animation-delay: 0.1s;
+            opacity: 0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 0 24px;
+        }
+
+        section {
+            margin-bottom: 100px;
+            animation: fadeIn 1.2s ease-out forwards;
+            animation-delay: 0.3s;
+            opacity: 0;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 16px;
+            margin-bottom: 40px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: var(--text-color);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 28px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--hover-elevate);
+            border-color: var(--accent-gray);
+        }
+
+        .card h4 {
+            margin-top: 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: var(--accent-gray);
+            font-size: 1rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* Animations */
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Build an Empathy App</h1>
+        <p class="subtitle">Exploring human connection through psychology, philosophy, game theory, and interactive system design.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>The Curriculum</h2>
+            <p style="font-size: 1.1rem; color: var(--accent-gray); max-width: 800px;">Before building any application, we must understand what empathy actually is—a biological imperative, a phenomenological bridge, and a malleable skill.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h4>1. Game Theory & Cooperation</h4>
+                    <p>Understanding reciprocal altruism and non-zero-sum games via works like <em>The Evolution of Cooperation</em> (Axelrod) and <em>The Age of Empathy</em> (de Waal).</p>
+                </div>
+                <div class="card">
+                    <h4>2. Philosophy of Empathy</h4>
+                    <p>Exploring the epistemology of understanding "the other" through Edith Stein and Jamil Zaki's <em>The War for Kindness</em>.</p>
+                </div>
+                <div class="card">
+                    <h4>3. Narrative & Fiction</h4>
+                    <p>Using narrative to transport the mind, referencing visceral empathetic literature like Octavia Butler's <em>Kindred</em>.</p>
+                </div>
+                <div class="card">
+                    <h4>4. Game Design</h4>
+                    <p>Designing rulesets that elicit specific emotional responses, invoking Jesse Schell's <em>Lens of Emotion</em>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interactive Architectures</h2>
+            <p style="font-size: 1.1rem; color: var(--accent-gray); max-width: 800px;">Synthesizing academic theory by designing platform-agnostic "Empathy Modules" that model and test emotional connection.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Module 1: The Interactive Dilemma</h4>
+                    <p>Demonstrates the mathematics of cooperation through a gamified social dilemma, pitting players against programmed automated strategies.</p>
+                </div>
+                <div class="card">
+                    <h4>Module 2: The Perspective Engine</h4>
+                    <p>A narrative branching tree simulating structural constraints outside the user's lived experience, exposing cognitive phenomena like the Bystander Effect.</p>
+                </div>
+                <div class="card">
+                    <h4>Module 3: The Reflection Dashboard</h4>
+                    <p>Visualizes the user's longitudinal "Empathy Index" across multiple sessions, treating connection as a consistently developing muscle.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

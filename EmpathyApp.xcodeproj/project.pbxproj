@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6E09157EDA718119C85CC6 /* DilemmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A092AB22C6772F86BAFFC0 /* DilemmaModel.swift */; };
+		3BC1308847E0499A4CCF6BAD /* PerspectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A870D31752A1D3802B59170 /* PerspectiveView.swift */; };
+		45CB852BAC1A4BAF8CE373B8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986E9CB83EC828E6FE516BD /* DashboardView.swift */; };
+		6AB5F3F9B9175CA47C110945 /* DilemmaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD0F8E5B0D3CD327B078A9D /* DilemmaView.swift */; };
+		7A359BBAB727AE1BB6899C82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE3F3C4ED65E5F73E6EFD5 /* ContentView.swift */; };
+		94D1EF2FDC8A9A33CF24C235 /* PerspectiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A867169225D1DCC2C5E9D2E /* PerspectiveModel.swift */; };
+		9C1AFF5354BAE598DE880B4D /* EmpathyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E413FF8358FEC41208A46 /* EmpathyAppApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E7E413FF8358FEC41208A46 /* EmpathyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyAppApp.swift; sourceTree = "<group>"; };
+		32A092AB22C6772F86BAFFC0 /* DilemmaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DilemmaModel.swift; sourceTree = "<group>"; };
+		4A867169225D1DCC2C5E9D2E /* PerspectiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveModel.swift; sourceTree = "<group>"; };
+		6618C20DC7B9842299E413CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6A870D31752A1D3802B59170 /* PerspectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveView.swift; sourceTree = "<group>"; };
+		8986E9CB83EC828E6FE516BD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8AD0F8E5B0D3CD327B078A9D /* DilemmaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DilemmaView.swift; sourceTree = "<group>"; };
+		9BEE3F3C4ED65E5F73E6EFD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF7EC006052DE727D9DEDC5D /* EmpathyApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EmpathyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7CCA32E0DD4DF576489E6580 = {
+			isa = PBXGroup;
+			children = (
+				89214FE30B89D6CBDF9F56D8 /* EmpathyApp */,
+				F6505A89659582BB34A91121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824031EB0F20E779FF72D0FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BEE3F3C4ED65E5F73E6EFD5 /* ContentView.swift */,
+				8986E9CB83EC828E6FE516BD /* DashboardView.swift */,
+				8AD0F8E5B0D3CD327B078A9D /* DilemmaView.swift */,
+				6A870D31752A1D3802B59170 /* PerspectiveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89214FE30B89D6CBDF9F56D8 /* EmpathyApp */ = {
+			isa = PBXGroup;
+			children = (
+				6618C20DC7B9842299E413CC /* Info.plist */,
+				ED90B190529CE552F0B06FF7 /* App */,
+				8AE288A873864D0E2F4D3F87 /* Models */,
+				824031EB0F20E779FF72D0FC /* Views */,
+			);
+			path = EmpathyApp;
+			sourceTree = "<group>";
+		};
+		8AE288A873864D0E2F4D3F87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32A092AB22C6772F86BAFFC0 /* DilemmaModel.swift */,
+				4A867169225D1DCC2C5E9D2E /* PerspectiveModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED90B190529CE552F0B06FF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1E7E413FF8358FEC41208A46 /* EmpathyAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F6505A89659582BB34A91121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EC006052DE727D9DEDC5D /* EmpathyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC55BBE165B23AF51750C7F4 /* EmpathyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C520E45DDA5D12B9E809248B /* Build configuration list for PBXNativeTarget "EmpathyApp" */;
+			buildPhases = (
+				0876AB2450C43E03E2803400 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpathyApp;
+			packageProductDependencies = (
+			);
+			productName = EmpathyApp;
+			productReference = DF7EC006052DE727D9DEDC5D /* EmpathyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1987BD91BC8B33FD0B0D556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = BACBED56CFCFE2B1E4D138C6 /* Build configuration list for PBXProject "EmpathyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7CCA32E0DD4DF576489E6580;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC55BBE165B23AF51750C7F4 /* EmpathyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0876AB2450C43E03E2803400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A359BBAB727AE1BB6899C82 /* ContentView.swift in Sources */,
+				45CB852BAC1A4BAF8CE373B8 /* DashboardView.swift in Sources */,
+				2C6E09157EDA718119C85CC6 /* DilemmaModel.swift in Sources */,
+				6AB5F3F9B9175CA47C110945 /* DilemmaView.swift in Sources */,
+				9C1AFF5354BAE598DE880B4D /* EmpathyAppApp.swift in Sources */,
+				94D1EF2FDC8A9A33CF24C235 /* PerspectiveModel.swift in Sources */,
+				3BC1308847E0499A4CCF6BAD /* PerspectiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FD079B4D25C1F3F34A2AF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51F1F8D55CFF40D75F0E5464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EmpathyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.empathycourse.EmpathyApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F1BB02D309D9E760AEB4549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7DD75E82BF6EC82FBE840E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EmpathyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.empathycourse.EmpathyApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BACBED56CFCFE2B1E4D138C6 /* Build configuration list for PBXProject "EmpathyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1BB02D309D9E760AEB4549 /* Debug */,
+				3FD079B4D25C1F3F34A2AF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C520E45DDA5D12B9E809248B /* Build configuration list for PBXNativeTarget "EmpathyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F1F8D55CFF40D75F0E5464 /* Debug */,
+				A7DD75E82BF6EC82FBE840E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1987BD91BC8B33FD0B0D556 /* Project object */;
+}

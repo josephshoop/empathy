@@ -146,6 +146,30 @@
             to { opacity: 1; }
         }
 
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: var(--text-color);
+            color: var(--bg-color);
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+            animation: slideUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            animation-delay: 0.2s;
+            opacity: 0;
+        }
+
+        .github-link:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--hover-elevate);
+            opacity: 0.9;
+        }
+
     </style>
 </head>
 <body>
@@ -153,6 +177,12 @@
     <header>
         <h1>Build an Empathy App</h1>
         <p class="subtitle">Exploring human connection through psychology, philosophy, game theory, and interactive system design.</p>
+        <a href="https://github.com/josephshoop/empathy" class="github-link" target="_blank" rel="noopener noreferrer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12C2 16.42 4.866 19.58 8.841 20.666C9.341 20.758 9.523 20.45 9.523 20.191C9.523 19.957 9.514 19.255 9.509 18.293C6.728 18.896 6.142 17.153 6.142 17.153C5.687 15.998 5.032 15.69 5.032 15.69C4.126 15.07 5.102 15.082 5.102 15.082C6.104 15.153 6.63 16.111 6.63 16.111C7.52 17.636 8.966 17.195 9.544 16.94C9.635 16.287 9.897 15.848 10.187 15.597C7.967 15.344 5.632 14.485 5.632 10.665C5.632 9.576 6.021 8.683 6.652 7.979C6.549 7.727 6.208 6.711 6.749 5.326C6.749 5.326 7.581 5.06 9.497 6.357C10.287 6.137 11.144 6.027 12 6.022C12.855 6.027 13.712 6.137 14.503 6.357C16.418 5.06 17.25 5.326 17.25 5.326C17.792 6.711 17.451 7.727 17.35 7.979C17.982 8.683 18.369 9.576 18.369 10.665C18.369 14.496 16.031 15.341 13.805 15.59C14.168 15.903 14.494 16.518 14.494 17.473C14.494 18.839 14.482 19.939 14.482 20.191C14.482 20.453 14.661 20.764 15.169 20.666C19.141 19.578 22 16.419 22 12C22 6.477 17.523 2 12 2Z" />
+            </svg>
+            View on GitHub
+        </a>
     </header>
 
     <main>

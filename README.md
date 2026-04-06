@@ -37,7 +37,10 @@ Before building any application, students must deconstruct what empathy actually
 - **"The Left Hand of Darkness" by Ursula K. Le Guin**: Forcing the human protagonist (and reader) to bridge an immense psychological and sociological gap regarding gender and environmental structures.
 
 *Note on Standard Empathy Texts:*
-While the course prioritizes these radical configurations, traditional empathy texts (such as Harper Lee's *To Kill a Mockingbird* or Philip K. Dick's *Do Androids Dream of Electric Sheep?*) are retained strictly as a pedagogical baseline. They define the "surface-level" standard of perspective-taking before students are pushed into confronting absolute otherness.
+While the course prioritizes these radical configurations, three traditional empathy texts are retained strictly as a pedagogical baseline. They define the standard models of perspective-taking before students are pushed to confront absolute otherness:
+- **"To Kill a Mockingbird" by Harper Lee**: Represents the classic "walk in their shoes" model of cognitive empathy. It fits the project by establishing the foundational baseline of imaginative perspective-taking that later modules systematically deconstruct.
+- **"Do Androids Dream of Electric Sheep?" by Philip K. Dick**: Centers on the Voight-Kampff test, which measures empathy as the sole delineator between human and machine. It fits the project by prompting students to ask how (and if) empathy can be programmed, simulated, or systematically verified.
+- **"The Empathy Exams" by Leslie Jamison**: Explores empathy as a clinical performance and an exhausting labor. It fits the project by acting as a crucial bridge between basic emotional resonance and the deeper physical mechanics of "Affect Theory."
 
 ## Part 2: Translating Theory into Interactive Architectures
 

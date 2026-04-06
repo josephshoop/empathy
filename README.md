@@ -1,48 +1,60 @@
-# "Build an Empathy App/Game" - Course Foundation
+# "Build an Empathy App/Game" - Advanced Course Foundation
 
-The goal of this course is to explore empathy from a psychological, philosophical, and game theory perspective, and to apply those learnings by designing and developing software that models or teaches empathy. While an iOS app, a web app, or a tabletop game may serve as a reference implementation for the final project, the core objective is understanding the mechanics of human connection.
+The primary goal of this course is to radically interrogate the concept of empathy from an advanced psychological, philosophical, and game theory perspective, and to apply those learnings by designing software or games that model these complex dynamics. While an iOS app, a web app, or a tabletop game may serve as a reference implementation, the core objective is to move beyond the superficial "empathy machine" narrative and understand the profound mechanics of human and non-human connection.
 
-The course will critically examine how we can systematically build empathetic responses through interactive systems, rulesets, and narratives.
+## Part 1: Psychological, Philosophical, and Affective Deep Dive
 
-## Part 1: Psychological & Philosophical Deep Dive
-
-Before building any application, students must understand what empathy actually is—a biological imperative, a phenomenological bridge, and a malleable skill. 
+Before building any application, students must deconstruct what empathy actually is. We will move beyond the simplified "walking in someone else's shoes" to understand the biological imperatives, the ethical demands of radical alterity, and the pre-cognitive circulation of affect.
 
 ### 1. The Game Theory & Evolution of Cooperation
-*Psychological Focus: How do systemic incentives shape human behavior?*
-- **"The Evolution of Cooperation" by Robert Axelrod**: The foundational text on how self-interested individuals evolve to cooperate through reciprocity. 
+*Psychological Focus: How do systemic biological incentives shape behavior?*
+- **"The Evolution of Cooperation" by Robert Axelrod**: The foundational text analyzing how self-interested individuals evolve to cooperate through reciprocity. 
 - **"The Age of Empathy: Nature's Lessons for a Kinder Society" by Frans de Waal**: A primatological view arguing that empathy is a biological instinct crucial for survival, dismantling the myth that society is purely "survival of the fittest."
-- **Key Concepts:** Reciprocal altruism, zero-sum vs. non-zero-sum games, tit-for-tat strategies.
+- **Key Concepts:** Reciprocal altruism, non-zero-sum games, tit-for-tat strategies.
 
-### 2. The Philosophy of Empathy
-*Philosophical Focus: The epistemology of understanding "the other."*
-- **"On the Problem of Empathy" by Edith Stein**: A phenomenological exploration into how we recognize and internalize the consciousness of others.
-- **"The War for Kindness: Building Empathy in a Fractured World" by Jamil Zaki**: A psychological and philosophical argument establishing empathy not as a fixed trait, but as a "muscle" that can be trained and grown.
-- **Key Concepts:** Cognitive vs affective empathy, the bystander effect, the limits of sympathy, moral imagination.
+### 2. Radical Alterity and the Ethics of "The Other"
+*Philosophical Focus: Critique of empathy as consumption and the demand of the Other.*
+- **"Totality and Infinity" by Emmanuel Levinas**: Investigating "The Face of the Other." Levinas argues that true ethics is not about *feeling* what the other feels (which risks reducing their unique experience to your own ego), but about an infinite *responsibility* to their absolute otherness (alterity).
+- **"Playing with Religion in Digital Games" by Benjamin Chicka (and related digital ethics)**: Examining how "digital alterity" works—can we encounter the Levinasian "Face" through an interactive screen?
+- **Key Concepts:** Alterity, the Face of the Other, Responsibility vs. Empathy, the critique of the "empathy machine" rhetoric.
 
-### 3. Fiction, Narrative, & Experiential Empathy
-*Experiential Focus: Using narrative to transport the mind.*
-- **"Kindred" by Octavia Butler**: Visceral empathy—forcing the protagonist (and reader) to inhabit an inescapable history to truly understand its weight.
-- **"Do Androids Dream of Electric Sheep?" by Philip K. Dick**: The philosophical boundaries of empathy as the defining trait of humanity (e.g., the Voight-Kampff test).
-- **"To Kill a Mockingbird" by Harper Lee**: The classic text on perspective-taking ("climb into his skin and walk around in it") as an antidote to bias.
+### 3. Affect Theory and Embodied Cognition
+*Psychological/Cultural Focus: The difference between named emotion and bodily affect.*
+- **"Playing with Feelings: Video Games and Affect" by Aubrey Anable**: Argues that games are "affective archives." Anable shifts the focus from what games *mean* to what they *do* to players' bodies and rhythms.
+- **"The Cultural Politics of Emotion" by Sara Ahmed**: How affects and emotions circulate between bodies, creating surfaces and boundaries of the self, resisting the simple "I feel your pain" model.
+- **Key Concepts:** Precognitive affect vs. conscious emotion, affective resonance, projective identity.
 
-### 4. Game Design for Emotion
-*Design Focus: Designing rulesets that elicit specific emotional responses.*
-- **"Empathy Engines" by Elizabeth Sampat**: Designing mechanics that force players into vulnerability.
-- **"The Art of Game Design" by Jesse Schell**: Utilizing lenses like the "Lens of Emotion" to craft resonant interactive elements.
+### 4. Umwelt and Alien Phenomenology
+*Phenomenological Focus: The biological boundaries of subjective reality.*
+- **"A Foray into the Worlds of Animals and Humans" by Jakob von Uexküll**: Introduces the concept of the **Umwelt**—the self-centered, sensorimotor world unique to a specific organism. Can we ever truly empathize outside our own species' Umwelt?
+- **"Alien Phenomenology, or What It's Like to Be a Thing" by Ian Bogost**: Extending Umwelt to non-human objects and digital systems. How do we design an interface for an alien experience?
+- **Key Concepts:** Umwelt (environment-world), structural limits of perception, object-oriented ontology.
+
+### 5. Literature of Radical Alterity (Replacing standard empathy texts)
+*Fiction Focus: Speculative fiction that tests the limits of connection.*
+- **"Solaris" by Stanisław Lem**: A profound exploration of the ultimate failure of empathy and communication when confronted with an entirely incomprehensible, alien Umwelt (the sentient ocean).
+- **"Dawn" (Xenogenesis Series) by Octavia E. Butler**: Explores forced biological empathy, the ethics of genetic merging, and the horror/beauty of confronting absolute otherness.
+- **"The Left Hand of Darkness" by Ursula K. Le Guin**: Forcing the human protagonist (and reader) to bridge an immense psychological and sociological gap regarding gender and environmental structures.
 
 ## Part 2: Translating Theory into Interactive Architectures
 
-Students will synthesize their understanding by designing "Empathy Modules." These modules are platform-agnostic (web, mobile, or mixed media) but rely on the following conceptual architectures:
+Students will synthesize their understanding by designing "Empathy Modules." These rely heavily on the theoretical frameworks above. **Note: Codebases like an iOS app are merely one sample medium.** Students may implement these as physical boardgames, networked multiplayer games, simulated futures markets, or any other ruleset.
 
 ### Module 1: The Interactive Dilemma (Game Theory Engine)
-- **Objective:** Demonstrate the mathematics of cooperation.
-- **Implementation:** A gamified social dilemma (like Iterated Prisoner's Dilemma) where players make choices against an automated opponent. The module visually demonstrates the compounding cost of betrayal versus the long-term yield of cooperation.
+- **Theoretical Anchor:** Axelrod & de Waal
+- **Implementation:** A gamified social dilemma demonstrating the mathematics of cooperation and reciprocal altruism against automated strategies. 
 
-### Module 2: The Perspective Engine (Philosophy Engine)
-- **Objective:** Simulate the structural constraints of someone outside the user's lived experience.
-- **Implementation:** A narrative branching tree where users navigate systemic biases (e.g., witnessing harassment or barriers). Choices are tracked to expose psychological phenomena like the diffusion of responsibility.
+### Module 2: The Alterity Engine (Levinas/Umwelt Simulator)
+- **Theoretical Anchor:** Levinas & Uexküll
+- **Implementation:** A system that deliberately **resists** the player's attempts to completely understand or control a digital "Other." It forces the player into a radically different sensorimotor environment (Umwelt) or presents choices where they must respond to an Other's needs without fully comprehending their internal state, modeling responsibility over consumption.
 
-### Module 3: The Reflection Dashboard
-- **Objective:** Provide a feedback loop that treats empathy as a measurable, developing skill (aligning with Jamil Zaki's thesis).
-- **Implementation:** A dashboard that visualizes the user's "Empathy Index" across multiple sessions, displaying longitudinal growth rather than pass/fail metrics. 
+### Module 3: The Affective Dashboard
+- **Theoretical Anchor:** Anable & Ahmed
+- **Implementation:** A feedback loop that visualizes the player's longitudinal choices not as "winning" or "losing" empathy, but mapping the circulation of their affective responses and cooperative vectors over time.
+
+> [!IMPORTANT]
+> ## User Review Required
+> Please review this drastic expansion of the curriculum:
+> 1. Does the shift into Levinasian ethics, Affect Theory, and Uexküll's Umwelt hit the desired academic depth?
+> 2. What do you think of the new fiction selections (*Solaris*, *Dawn*, *The Left Hand of Darkness*) to replace *Mockingbird*? Any other authors in mind (e.g., Ted Chiang)?
+> 3. Once approved, I will sync this back to the `README.md` and rebuild the `docs/index.html` website to reflect this much deeper academic framing.

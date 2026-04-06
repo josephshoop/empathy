@@ -34,6 +34,7 @@ Before building any application, students must deconstruct what empathy actually
 *Fiction Focus: Speculative fiction that tests the limits of connection.*
 - **"Solaris" by Stanisław Lem**: A profound exploration of the ultimate failure of empathy and communication when confronted with an entirely incomprehensible, alien Umwelt (the sentient ocean).
 - **"Dawn" (Xenogenesis Series) by Octavia E. Butler**: Explores forced biological empathy, the ethics of genetic merging, and the horror/beauty of confronting absolute otherness.
+- **"Kindred" by Octavia E. Butler**: Investigates visceral, forced experiential empathy by pulling the protagonist directly into the brutal lived reality of enslaved ancestors, stripping away the safety and distance of traditional empathy exercises.
 - **"The Left Hand of Darkness" by Ursula K. Le Guin**: Forcing the human protagonist (and reader) to bridge an immense psychological and sociological gap regarding gender and environmental structures.
 
 *Note on Standard Empathy Texts:*
@@ -58,9 +59,4 @@ Students will synthesize their understanding by designing "Empathy Modules." The
 - **Theoretical Anchor:** Anable & Ahmed
 - **Implementation:** A feedback loop that visualizes the player's longitudinal choices not as "winning" or "losing" empathy, but mapping the circulation of their affective responses and cooperative vectors over time.
 
-> [!IMPORTANT]
-> ## User Review Required
-> Please review this drastic expansion of the curriculum:
-> 1. Does the shift into Levinasian ethics, Affect Theory, and Uexküll's Umwelt hit the desired academic depth?
-> 2. What do you think of the new fiction selections (*Solaris*, *Dawn*, *The Left Hand of Darkness*) to replace *Mockingbird*? Any other authors in mind (e.g., Ted Chiang)?
-> 3. Once approved, I will sync this back to the `README.md` and rebuild the `docs/index.html` website to reflect this much deeper academic framing.
+

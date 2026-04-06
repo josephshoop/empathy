@@ -36,6 +36,9 @@ Before building any application, students must deconstruct what empathy actually
 - **"Dawn" (Xenogenesis Series) by Octavia E. Butler**: Explores forced biological empathy, the ethics of genetic merging, and the horror/beauty of confronting absolute otherness.
 - **"The Left Hand of Darkness" by Ursula K. Le Guin**: Forcing the human protagonist (and reader) to bridge an immense psychological and sociological gap regarding gender and environmental structures.
 
+*Note on Standard Empathy Texts:*
+While the course prioritizes these radical configurations, traditional empathy texts (such as Harper Lee's *To Kill a Mockingbird* or Philip K. Dick's *Do Androids Dream of Electric Sheep?*) are retained strictly as a pedagogical baseline. They define the "surface-level" standard of perspective-taking before students are pushed into confronting absolute otherness.
+
 ## Part 2: Translating Theory into Interactive Architectures
 
 Students will synthesize their understanding by designing "Empathy Modules." These rely heavily on the theoretical frameworks above. **Note: Codebases like an iOS app are merely one sample medium.** Students may implement these as physical boardgames, networked multiplayer games, simulated futures markets, or any other ruleset.

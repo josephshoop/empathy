@@ -59,4 +59,15 @@ Students will synthesize their understanding by designing "Empathy Modules." The
 - **Theoretical Anchor:** Anable & Ahmed
 - **Implementation:** A feedback loop that visualizes the player's longitudinal choices not as "winning" or "losing" empathy, but mapping the circulation of their affective responses and cooperative vectors over time.
 
+## Glossary of Key Terms
+
+- **Affect**: Precognitive physical intensities and bodily sensations that arise prior to conscious thought or social categorization. It is the capacity to affect and be affected.
+- **Affective Resonance**: The phenomenon where feelings and intensities circulate or transfer between bodies, objects, and environments, independent of conscious "perspective-taking."
+- **Alterity (Radical Alterity)**: The condition of absolute "otherness." It describes an entity or experience that is fundamentally different and impossible for the self to completely comprehend, assimilate, or reduce to its own familiar terms.
+- **Cognitive Empathy**: The deliberate, imaginative act of traditional perspective-taking ("walking in their shoes") to understand another's mental state. Often critiqued in this curriculum for treating the other's experience as fully consumable.
+- **Emotion**: The conscious, social naming and interpretation of a raw affective state (e.g., culturally classifying a bodily intensity as "sadness" or "anger").
+- **Reciprocal Altruism**: A mechanism in game theory and evolutionary biology where an entity acts in a way that temporarily benefits another at its own cost, driven by the systemic expectation of future mutual benefit.
+- **The Face of the Other**: A concept from Emmanuel Levinas representing the immediate, infinite ethical demand that another being places upon us—a demand that fundamentally resists our attempts to control or entirely understand them.
+- **Umwelt**: Coined by Jakob von Uexküll, replacing a universal "environment" with the unique, self-centered sensory-perceptual world that bounds a specific organism. It dictates that every species perceives a fundamentally different reality based on its structural constraints.
+
 

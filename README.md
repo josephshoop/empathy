@@ -59,6 +59,13 @@ Students will synthesize their understanding by designing "Empathy Modules." The
 - **Theoretical Anchor:** Anable & Ahmed
 - **Implementation:** A feedback loop that visualizes the player's longitudinal choices not as "winning" or "losing" empathy, but mapping the circulation of their affective responses and cooperative vectors over time.
 
+### Sample Implementation: EmpathyApp (Swift/iOS)
+A functional iOS prototype built with SwiftUI has been heavily scaffolded to demonstrate these modules in code. It contains the following core components:
+
+- **Interactive Branching Scenarios (`PerspectiveModel` & `PerspectiveView`)**: A working text-based interactive narrative engine. The primary scenario tracks branching choices (e.g., offering to pay bus fare for a struggling teenager). The endings dynamically present reflection points on sociological concepts like the **Bystander Effect**, privilege, and the failure of empathy.
+- **Game Theory Simulator (`DilemmaModel` & `DilemmaView`)**: An interactive "Prisoner’s Dilemma" mini-game. The user plays a 10-round game against an AI opponent using a "Tit-for-Tat" strategy. This models the systemic/mathematical side of empathy, challenging the user to recognize that sustained cooperation is often the most optimal strategy.
+- **Empathy Reflection Dashboard (`DashboardView`)**: Using native iOS Charts, this dashboard tracks the user’s "Cooperation Score" over a series of sessions. It visualizes progress and references Roman Krznaric's principles of experiential empathy to help users formally analyze their empathetic behaviors.
+
 ## Glossary of Key Terms
 
 - **Affect**: Precognitive physical intensities and bodily sensations that arise prior to conscious thought or social categorization. It is the capacity to affect and be affected.

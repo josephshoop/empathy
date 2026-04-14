@@ -30,10 +30,11 @@ Before building any application, students must deconstruct what empathy actually
 - **"Alien Phenomenology, or What It's Like to Be a Thing" by Ian Bogost**: Extending Umwelt to non-human objects and digital systems. How do we design an interface for an alien experience?
 - **Key Concepts:** Umwelt (environment-world), structural limits of perception, object-oriented ontology.
 
-### 5. The Ethics of Attention and Compulsive Design
-*Design Focus: How interfaces manipulate the "Machine Zone" and exploit affect.*
+### 5. Gamification, Value Capture, and Compulsive Design
+*Design Focus: How interfaces manipulate behavior, exploit affect, and substitute rich values with simplified metrics.*
 - **"Addiction by Design: Machine Gambling in Las Vegas" by Natasha Dow Schüll**: A landmark study on how technology is engineered to draw users into a trancelike state, bypassing conscious decision-making and exploiting behavioral psychology. Crucial for understanding the dark side of "engaging" app design and the ethical responsibility of developers.
-- **Key Concepts:** The Machine Zone, compulsion loops, dark patterns, affective exploitation vs. genuine connection.
+- **"The Score: How to Stop Playing Somebody Else's Game" by C. Thi Nguyen**: Examines the phenomenon of "value capture," where complex human values and empathic intentions are overwritten by clear, artificial, and gamified metrics (like points or 'cooperation scores'), fundamentally altering social motivation.
+- **Key Concepts:** The Machine Zone, value capture, compulsion loops, dark patterns, affective exploitation vs. genuine connection.
 
 ### 6. Literature of Radical Alterity (Replacing standard empathy texts)
 *Fiction Focus: Speculative fiction that tests the limits of connection.*

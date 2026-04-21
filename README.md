@@ -43,6 +43,11 @@ Before building any application, students must deconstruct what empathy actually
 - **"Kindred" by Octavia E. Butler**: Investigates visceral, forced experiential empathy by pulling the protagonist directly into the brutal lived reality of enslaved ancestors, stripping away the safety and distance of traditional empathy exercises.
 - **"The Left Hand of Darkness" by Ursula K. Le Guin**: Forcing the human protagonist (and reader) to bridge an immense psychological and sociological gap regarding gender and environmental structures.
 
+### 7. The Developer as Artist: Code as a Creative Medium
+*Engineering Focus: Bridging the gap between rigid software construction and expressive art.*
+- **"Hackers and Painters" by Paul Graham** ([Read Here](https://paulgraham.com/hp.html)): Argues that programming is not fundamentally a mathematical or purely engineering discipline, but a creative one akin to painting. For an "empathy/game" curriculum, this frame is critical: we must treat software architecture as an expressive, fluid medium capable of holding and communicating the complex philosophical and emotional states discussed above.
+- **Key Concepts:** Software as art, creative construction vs. rigid engineering, the aesthetics of code.
+
 *Note on Standard Empathy Texts:*
 While the course prioritizes these radical configurations, three traditional empathy texts are retained strictly as a pedagogical baseline. They define the standard models of perspective-taking before students are pushed to confront absolute otherness:
 - **"To Kill a Mockingbird" by Harper Lee**: Represents the classic "walk in their shoes" model of cognitive empathy. It fits the project by establishing the foundational baseline of imaginative perspective-taking that later modules systematically deconstruct.
